@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Isotope from "isotope-layout";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+
 const Portfolio = ({ classicHeader, darkTheme }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
@@ -18,7 +19,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Cardinal Senior Benefits",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "This website was built for a local insurance agency. It was built using React and Bootstrap. It is a single page application that uses React Router to navigate between pages. The website is fully responsive and is hosted on Netlify.",
       client: "Jerome Checketts",
       technologies: "HTML5, CSS3, BOOTSTRAP, REACT",
       industry: "Insurance",
@@ -34,17 +35,17 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "/images/projects/CSB_HomePage.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "/images/projects/CSB_CompaniesPage.png",
+        "/images/projects/project-5.jpg",
       ],
       categories: [filters.WEB],
     },
     {
       title: "Overtime Athletic Management",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "This website was built with and for a friend of mine.  He came up with the idea when he was coaching girls basketball.  He wanted a system to help keep track of his players, equipment, schedules, and more.  We built it using HTML, CSS, Javascript, and Bootstrap.",
       client: "Joey Bartholomew",
       technologies: "HTML5, CSS3, Bootstrap, Javascript",
       industry: "Sports",
@@ -144,58 +145,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-5.jpg",
       ],
       categories: [filters.DESIGN],
-    },
-    {
-      title: "Project Title 6",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-6.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.BRAND],
-    },
-    {
-      title: "Project Title 7",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-7.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.DESIGN, filters.PHOTOS],
     },
   ];
 
