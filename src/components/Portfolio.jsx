@@ -10,20 +10,19 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
-    DESIGN: "Desing",
-    BRAND: "Brand",
-    PHOTOS: "Photos",
+    WEB: "Web",
+    PYTHON: "Python",
   };
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "Cardinal Senior Benefits",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+      client: "Jerome Checketts",
+      technologies: "HTML5, CSS3, BOOTSTRAP, REACT",
+      industry: "Insurance",
+      date: "April 2023",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -40,19 +39,19 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.WEB],
     },
     {
-      title: "Project Title 2",
+      title: "Overtime Athletic Management",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+      client: "Joey Bartholomew",
+      technologies: "HTML5, CSS3, Bootstrap, Javascript",
+      industry: "Sports",
+      date: "March 2023",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/joseph-bartholomew/overtime",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -66,14 +65,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-2.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.WEB],
     },
     {
       title: "Project Title 3",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "HTML5, CSS3, Bootstrap, Javascript",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {

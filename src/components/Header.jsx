@@ -166,10 +166,32 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             </ul>
           </div>
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+            <li className="social-icons-linkedin">
+              <Tooltip text="LinkedIn" placement="top">
+                <a
+                  href="https://www.linkedin.com/in/jerome-checketts/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin" />
+                </a>
+              </Tooltip>
+            </li>
+            <li className="social-icons-github">
+              <Tooltip text="Github" placement="top">
+                <a
+                  href="https://github.com/jeromechecketts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-github" />
+                </a>
+              </Tooltip>
+            </li>
             <li className="social-icons-facebook">
               <Tooltip text="Facebook" placement="top">
                 <a
-                  href="http://www.facebook.com/"
+                  href="https://www.facebook.com/jerome.checketts"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -180,33 +202,11 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <li className="social-icons-twitter">
               <Tooltip text="Twitter" placement="top">
                 <a
-                  href="http://www.twitter.com/"
+                  href="https://twitter.com/JeromeChecketts"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-twitter" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-dribbble">
-              <Tooltip text="Dribbble" placement="top">
-                <a
-                  href="http://www.dribbble.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-dribbble" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-github">
-              <Tooltip text="Google" placement="top">
-                <a
-                  href="http://www.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github" />
                 </a>
               </Tooltip>
             </li>
