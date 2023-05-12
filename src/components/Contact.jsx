@@ -208,7 +208,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
 								(darkTheme ? 'text-white' : '')
 							}
 						>
-							Send us a note
+							Send me a note
 						</h2>
 						<form
 							className={darkTheme ? 'form-dark' : ''}
@@ -243,7 +243,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
 										className='form-control'
 										rows={5}
 										required
-										placeholder='Tell us more about your needs........'
+										placeholder='Tell me more about your needs........'
 										defaultValue={''}
 									/>
 								</div>

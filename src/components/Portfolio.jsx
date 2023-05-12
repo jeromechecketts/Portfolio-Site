@@ -19,14 +19,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 		{
 			title: 'Cardinal Senior Benefits',
 			projectInfo:
-				'This website was built for a local insurance agency. It was built using React and Bootstrap. It is a single page application that uses React Router to navigate between pages. The website is fully responsive and is hosted on Netlify.',
+				'This website was built for a local insurance agency. It was built using React and Bootstrap. It is a single page application that uses React Router to navigate between pages. The website is fully responsive and is hosted on Firebase.',
 			client: 'Jerome Checketts',
 			technologies: 'HTML5, CSS3, BOOTSTRAP, REACT',
 			industry: 'Insurance',
 			date: 'April 2023',
 			url: {
-				name: 'www.example.com',
-				link: 'https://www.example.com',
+				name: 'github.com/jeromechecketts/FinalExpenseTracker',
+				link: 'https://github.com/jeromechecketts/FinalExpenseTracker',
 			},
 			socialLinks: {
 				facebook: 'http://www.facebook.com/',
@@ -61,7 +61,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 				instagram: 'http://www.instagram.com/',
 				mail: 'mailto:example@gmail.com',
 			},
-			thumbImage: 'images/projects/project-2.jpg',
+			thumbImage: 'images/projects/Overtime_Home.png',
 			sliderImages: [
 				'images/projects/project-2.jpg',
 				'images/projects/project-5.jpg',
@@ -269,15 +269,19 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 													alt=''
 												/>
 												<div className='portfolio-overlay'>
-													{/* <a
-                            className="popup-ajax stretched-link"
-                            href=""
-                            onClick={() => {
-                              setSelectedProjectDetails(projectsData[index]);
-                            }}
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                          /> */}
+													<a
+														className='popup-ajax stretched-link'
+														href=''
+														onClick={() => {
+															setSelectedProjectDetails(
+																projectsData[
+																	index
+																]
+															);
+														}}
+														data-bs-toggle='modal'
+														data-bs-target='#exampleModal'
+													/>
 													<div className='portfolio-overlay-details'>
 														<h5 className='text-white fw-400'>
 															{project.title}
