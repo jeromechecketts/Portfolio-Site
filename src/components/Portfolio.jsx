@@ -38,7 +38,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 			thumbImage: '/images/projects/CSB_HomePage.png',
 			sliderImages: [
 				'/images/projects/CSB_CompaniesPage.png',
-				'/images/projects/project-5.jpg',
+				'/images/projects/CSB_ContactPage.png',
 			],
 			categories: [filters.WEB],
 		},
@@ -51,7 +51,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 			industry: 'Sports',
 			date: 'March 2023',
 			url: {
-				name: 'www.example.com',
+				name: 'github.com/joseph-bartholomew/overtime',
 				link: 'https://github.com/joseph-bartholomew/overtime',
 			},
 			socialLinks: {
@@ -63,22 +63,22 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 			},
 			thumbImage: 'images/projects/Overtime_Home.png',
 			sliderImages: [
-				'images/projects/project-2.jpg',
-				'images/projects/project-5.jpg',
+				'images/projects/Overtime-Product.png',
+				'images/projects/Overtime-About.png',
 			],
 			categories: [filters.WEB],
 		},
 		{
-			title: 'Project Title 3',
+			title: 'Nucamp React Webapp with MongoDB',
 			projectInfo:
-				'Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
-			client: 'Ruby Clinton',
-			technologies: 'HTML5, CSS3, Bootstrap, Javascript',
-			industry: 'Art & Design',
-			date: 'July 16, 2019',
+				'The Nucamp Campsite web app is a full-stack, user-friendly platform for exploring, reserving, and reviewing campsites. It features campsite listings, user authentication, reviews and ratings, a reservation system, and an admin dashboard. It was built using React, Node.js, Express.js, and MongoDB.',
+			client: 'Jerome Checketts',
+			technologies: 'React, Bootstrap, MongoDB, Node.js, Express.js',
+			industry: 'Camping',
+			date: 'May 20, 2023',
 			url: {
-				name: 'www.example.com',
-				link: 'https://www.example.com',
+				name: 'https://react-deploy-jerome.web.app/',
+				link: 'https://react-deploy-jerome.web.app/',
 			},
 			socialLinks: {
 				facebook: 'http://www.facebook.com/',
@@ -87,24 +87,24 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 				instagram: 'http://www.instagram.com/',
 				mail: 'mailto:example@gmail.com',
 			},
-			thumbImage: 'images/projects/project-3.jpg',
+			thumbImage: 'images/projects/Nucamp-HomePage.png',
 			sliderImages: [
-				'images/projects/project-3.jpg',
-				'images/projects/project-5.jpg',
+				'images/projects/Nucamp-Directory.png',
+				'images/projects/Nucamp-About.png',
 			],
-			categories: [filters.PHOTOS],
+			categories: [filters.WEB],
 		},
 		{
-			title: 'Project Title 4',
+			title: 'Hangman Game',
 			projectInfo:
-				'Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
-			client: 'Ruby Clinton',
-			technologies: 'iOS, HTML5, CSS3, PHP, Java',
-			industry: 'Art & Design',
-			date: 'July 16, 2019',
+				'The Python Hangman Game is a text-based game that I developed using Python. It provides an interactive and entertaining experience where players attempt to guess a hidden word by suggesting letters. The game includes features such as a random word selection, tracking of correct and incorrect guesses, displaying the progress of the word with correctly guessed letters, and a limit on the number of incorrect guesses before the game ends. It showcases my proficiency in Python programming, string manipulation, and interactive game design.',
+			client: 'Jerome Checketts',
+			technologies: 'Python',
+			industry: 'Games',
+			date: 'December 2022',
 			url: {
-				name: 'www.example.com',
-				link: 'https://www.example.com',
+				name: 'github.com/jeromechecketts/hangman',
+				link: 'https://github.com/jeromechecketts/hangman',
 			},
 			socialLinks: {
 				facebook: 'http://www.facebook.com/',
@@ -113,39 +113,36 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 				instagram: 'http://www.instagram.com/',
 				mail: 'mailto:example@gmail.com',
 			},
-			thumbImage: 'images/projects/project-4.jpg',
-			sliderImages: [
-				'images/projects/project-1.jpg',
-				'images/projects/project-4.jpg',
-			],
-			categories: [filters.BRAND, filters.PHOTOS],
+			thumbImage: 'images/projects/Hangman-1.png',
+			sliderImages: ['images/projects/Hangman-2.png'],
+			categories: [filters.PYTHON],
 		},
-		{
-			title: 'Project Title 5',
-			projectInfo:
-				'Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
-			client: 'Ruby Clinton',
-			technologies: 'iOS, HTML5, CSS3, PHP, Java',
-			industry: 'Art & Design',
-			date: 'July 16, 2019',
-			url: {
-				name: 'www.example.com',
-				link: 'https://www.example.com',
-			},
-			socialLinks: {
-				facebook: 'http://www.facebook.com/',
-				twitter: 'http://www.twitter.com/',
-				google: 'http://www.google.com/',
-				instagram: 'http://www.instagram.com/',
-				mail: 'mailto:example@gmail.com',
-			},
-			thumbImage: 'images/projects/project-5.jpg',
-			sliderImages: [
-				'images/projects/project-1.jpg',
-				'images/projects/project-5.jpg',
-			],
-			categories: [filters.DESIGN],
-		},
+		// {
+		// 	title: 'Project Title 5',
+		// 	projectInfo:
+		// 		'Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
+		// 	client: 'Ruby Clinton',
+		// 	technologies: 'iOS, HTML5, CSS3, PHP, Java',
+		// 	industry: 'Art & Design',
+		// 	date: 'July 16, 2019',
+		// 	url: {
+		// 		name: 'www.example.com',
+		// 		link: 'https://www.example.com',
+		// 	},
+		// 	socialLinks: {
+		// 		facebook: 'http://www.facebook.com/',
+		// 		twitter: 'http://www.twitter.com/',
+		// 		google: 'http://www.google.com/',
+		// 		instagram: 'http://www.instagram.com/',
+		// 		mail: 'mailto:example@gmail.com',
+		// 	},
+		// 	thumbImage: 'images/projects/project-5.jpg',
+		// 	sliderImages: [
+		// 		'images/projects/project-1.jpg',
+		// 		'images/projects/project-5.jpg',
+		// 	],
+		// 	categories: [filters.DESIGN],
+		// },
 	];
 
 	// initialize an Isotope object with configs

@@ -90,7 +90,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
 								</li>
 								<li>
 									<span className='fw-600 me-2'>Email:</span>
-									<a href='mailto:jeromechecketts@gmail.com'>
+									<a href='mailto:jerome@jeromechecketts.dev'>
 										jerome@jeromechecketts.dev
 									</a>
 								</li>
