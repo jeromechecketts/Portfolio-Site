@@ -17,9 +17,37 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
 	const projectsData = [
 		{
+			title: 'SWT Mens Grooming',
+			projectInfo:
+				"SWT Mens Grooming is a bespoke website developed for a modern barber shop in Texas. Created using React and Bootstrap, this single-page application offers smooth navigation with React Router. The design is both sleek and user-friendly, mirroring the shop's high standards and commitment to its customers. Hosted on Firebase for reliability, the site ensures optimal performance across various devices, catering to a broad clientele.",
+			client: 'Sally Nuno',
+			technologies: 'REACT, BOOTSTRAP',
+			industry: 'Beauty and Personal Care',
+			date: 'October 2023',
+			url: {
+				name: 'swt-mens-grooming.web.app/',
+				link: 'https://swt-mens-grooming.web.app/',
+			},
+			socialLinks: {
+				facebook: 'http://www.facebook.com/',
+				twitter: 'http://www.twitter.com/',
+				google: 'http://www.google.com/',
+				instagram: 'http://www.instagram.com/',
+				mail: 'mailto:example@gmail.com',
+			},
+			thumbImage: '/images/projects/SWT-Home.png',
+			sliderImages: [
+				'/images/projects/SWT-Menu.png',
+				'/images/projects/SWT-Services.png',
+				'/images/projects/SWT-ContactUs.png',
+				'/images/projects/SWT-Map.png',
+			],
+			categories: [filters.WEB],
+		},
+		{
 			title: 'Cardinal Senior Benefits',
 			projectInfo:
-				'This website was built for a local insurance agency. It was built using React and Bootstrap. It is a single page application that uses React Router to navigate between pages. The website is fully responsive and is hosted on Firebase.',
+				'This website was built for a local insurance agency. It was built using React and Bootstrap. It is a single page application that uses React Router to navigate between pages.',
 			client: 'Jerome Checketts',
 			technologies: 'HTML5, CSS3, BOOTSTRAP, REACT',
 			industry: 'Insurance',
@@ -68,32 +96,32 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 			],
 			categories: [filters.WEB],
 		},
-		{
-			title: 'Nucamp React Webapp with MongoDB',
-			projectInfo:
-				'The Nucamp Campsite web app is a full-stack, user-friendly platform for exploring, reserving, and reviewing campsites. It features campsite listings, user authentication, reviews and ratings, a reservation system, and an admin dashboard. It was built using React, Node.js, Express.js, and MongoDB.',
-			client: 'Jerome Checketts',
-			technologies: 'React, Bootstrap, MongoDB, Node.js, Express.js',
-			industry: 'Camping',
-			date: 'May 20, 2023',
-			url: {
-				name: 'https://react-deploy-jerome.web.app/',
-				link: 'https://react-deploy-jerome.web.app/',
-			},
-			socialLinks: {
-				facebook: 'http://www.facebook.com/',
-				twitter: 'http://www.twitter.com/',
-				google: 'http://www.google.com/',
-				instagram: 'http://www.instagram.com/',
-				mail: 'mailto:example@gmail.com',
-			},
-			thumbImage: 'images/projects/Nucamp-HomePage.png',
-			sliderImages: [
-				'images/projects/Nucamp-Directory.png',
-				'images/projects/Nucamp-About.png',
-			],
-			categories: [filters.WEB],
-		},
+		// {
+		// 	title: 'Nucamp React Webapp with MongoDB',
+		// 	projectInfo:
+		// 		'The Nucamp Campsite web app is a full-stack, user-friendly platform for exploring, reserving, and reviewing campsites. It features campsite listings, user authentication, reviews and ratings, a reservation system, and an admin dashboard. It was built using React, Node.js, Express.js, and MongoDB.',
+		// 	client: 'Jerome Checketts',
+		// 	technologies: 'React, Bootstrap, MongoDB, Node.js, Express.js',
+		// 	industry: 'Camping',
+		// 	date: 'May 20, 2023',
+		// 	url: {
+		// 		name: 'https://react-deploy-jerome.web.app/',
+		// 		link: 'https://react-deploy-jerome.web.app/',
+		// 	},
+		// 	socialLinks: {
+		// 		facebook: 'http://www.facebook.com/',
+		// 		twitter: 'http://www.twitter.com/',
+		// 		google: 'http://www.google.com/',
+		// 		instagram: 'http://www.instagram.com/',
+		// 		mail: 'mailto:example@gmail.com',
+		// 	},
+		// 	thumbImage: 'images/projects/Nucamp-HomePage.png',
+		// 	sliderImages: [
+		// 		'images/projects/Nucamp-Directory.png',
+		// 		'images/projects/Nucamp-About.png',
+		// 	],
+		// 	categories: [filters.WEB],
+		// },
 		{
 			title: 'Hangman Game',
 			projectInfo:
@@ -284,7 +312,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 															{project.title}
 														</h5>
 														<span className='text-light'>
-															Category
+															{project.industry}
 														</span>
 													</div>
 												</div>
